@@ -1,0 +1,453 @@
+/*Normal desktop : 992px. */
+
+@media (min-width: 992px) and (max-width: 1200px){
+    .container{
+        width:970px;
+    }
+}
+
+
+/*tablet desktop : 768px. */
+
+@media (min-width: 767px) and (max-width: 991px){
+    .container{
+        width:730px;
+    }
+    .home_text h2{
+        font-size:28px;
+    }
+    .home_text h1{
+        font-size:37px;
+    }
+    .home_content{
+        padding-top:170px;
+    }
+    .about-text p{
+        line-height:1.2em;
+    }
+    .office-text{
+        padding-top:0;
+    }
+    .office-img{
+        padding-bottom:30px;
+    }
+}
+
+
+/*large mobile screen : 480px */
+
+@media only screen and (min-width:480px) and (max-width: 600px){
+    .container{
+        width:450px;
+    }
+    .main_menu{
+        position:absolute;
+        width:200px;
+        height:100vh;
+        right:0;
+        top:-1000px;
+        text-align:left;
+        background:rgb(28, 28, 128);
+        z-index:3;
+        transition:0.5s;
+    }
+    .main_menu ul{
+        padding-left:30px;
+        margin-top:60px;
+    }
+    .main_menu ul li{
+        width:80px;
+        display:block;
+        margin:0;
+        padding-bottom:20px;
+    }
+    .main_menu ul li a{
+        padding:0;
+    }
+    .main_menu ul li a:hover{
+        color:lightseagreen;
+        display:inline-block;
+    }
+
+    nav .fa{
+        display:block;
+        color:#fff;
+        padding:10px;
+        position:absolute;
+        right:20px;
+        top:8px;
+        font-size:22px;
+    }
+    .main_menu ul li a:hover::before{
+        width:0;
+    }
+
+    .home_text h2{
+        font-size:22px;
+    }
+    .home_text h1{
+        font-size:29px;
+    }
+    .home_content{
+        padding-top:180px;
+    }
+
+    .home_area{
+        height:80vh;
+        overflow:hidden;
+    }
+    .about-area{
+        height:380px;
+    }
+    .about-text{
+        float:left;
+        width:46%;
+        padding-top:15px;
+        
+    }
+    .about-text h3{
+        font-size:22px;
+
+    }
+    .about-text p{
+        line-height:1.4em;
+        font-size:15px;
+    }
+    .about-img{
+        float:right;
+        width:47%;
+        padding-top:80px;
+    }
+    .about-img img{
+        height:
+    }
+    .services-img{
+        height:350px;
+    }
+
+    .services-text{
+        padding-top:22px;
+        width:45%;
+    }
+
+    .single-service h3{
+        font-size:20px;
+    }
+    .single-service p{
+        font-size:13px;
+    }
+    .office-area{
+        height:400px;
+    }
+    .office-text{
+        padding-top:0;
+    }
+    .office-text h3{
+        padding-bottom:13px;
+    }
+    .office-text p{
+        font-size:14px;
+        line-height:1.4em;
+    }
+    .office-img{
+        padding-top:70px;
+    }
+
+
+    .contact-map{
+        float:right;
+        width:50%;
+    }
+    
+
+}
+
+/*large mobile screen : 600px */
+
+@media only screen and (min-width:600px) and (max-width: 767px){
+    .container{
+        width:600px;
+    }
+    .main_menu{
+        position:absolute;
+        width:200px;
+        height:100vh;
+        right:0;
+        top:-1000px;
+        text-align:left;
+        background:rgb(28, 28, 128);
+        z-index:3;
+        transition:0.5s;
+    }
+    .main_menu ul{
+        padding-left:30px;
+        margin-top:60px;
+    }
+    .main_menu ul li{
+        width:80px;
+        display:block;
+        margin:0;
+        padding-bottom:20px;
+    }
+    .main_menu ul li a{
+        padding:0;
+    }
+    .main_menu ul li a:hover{
+        color:lightseagreen;
+        display:inline-block;
+    }
+
+    nav .fa{
+        display:block;
+        color:#fff;
+        padding:10px;
+        position:absolute;
+        right:15px;
+        top:8px;
+        font-size:22px;
+    }
+    .main_menu ul li a:hover::before{
+        width:0;
+    }
+
+    .home_text h2{
+        font-size:22px;
+    }
+    .home_text h1{
+        font-size:29px;
+    }
+    .home_content{
+        padding-top:180px;
+    }
+
+    .home_area{
+        height:80vh;
+        overflow:hidden;
+    }
+    .about-area{
+        height:380px;
+    }
+    .about-text{
+        float:left;
+        width:46%;
+        padding-top:15px;
+        
+    }
+    .about-text h3{
+        font-size:22px;
+
+    }
+    .about-text p{
+        line-height:1.4em;
+        font-size:15px;
+    }
+    .about-img{
+        float:right;
+        width:47%;
+        padding-top:80px;
+    }
+    .about-img img{
+        height:
+    }
+    .services-img{
+        height:350px;
+    }
+
+    .services-text{
+        padding-top:22px;
+        width:45%;
+    }
+
+    .single-service h3{
+        font-size:20px;
+    }
+    .single-service p{
+        font-size:13px;
+    }
+    .office-area{
+        height:400px;
+    }
+    .office-text{
+        padding-top:0;
+    }
+    .office-text h3{
+        padding-bottom:13px;
+    }
+    .office-text p{
+        font-size:14px;
+        line-height:1.4em;
+    }
+    .office-img{
+        padding-top:70px;
+    }
+
+
+    .contact-map{
+        float:right;
+        width:50%;
+    }
+    
+
+
+}
+
+/*ex small device : 320px. */
+
+@media only screen and (min-width:320px) and (max-width: 480px){
+    .container{
+        width:360px;
+    }
+    .main_menu{
+        position:absolute;
+        width:200px;
+        height:100vh;
+        right:0;
+        top:-1000px;
+        text-align:left;
+        background:rgb(28, 28, 128);
+        z-index:3;
+        transition:0.5s;
+    }
+    .main_menu ul{
+        padding-left:30px;
+        margin-top:60px;
+    }
+    .main_menu ul li{
+        width:80px;
+        display:block;
+        margin:0;
+        padding-bottom:20px;
+    }
+    .main_menu ul li a{
+        padding:0;
+    }
+    .main_menu ul li a:hover{
+        color:lightseagreen;
+        display:inline-block;
+    }
+
+    nav .fa{
+        display:block;
+        color:#fff;
+        padding:10px;
+        position:absolute;
+        right:15px;
+        top:8px;
+        font-size:22px;
+    }
+    .main_menu ul li a:hover::before{
+        width:0;
+    }
+
+    .home_text h2{
+        font-size:16px;
+    }
+    .home_text h1{
+        font-size:22px;
+    }
+    .home_content{
+        padding-top:180px;
+    }
+    .home-btn a {
+        padding: 6px 10px;
+        font-size: 13px;
+    }
+    .home_area{
+        height:70vh;
+        overflow:hidden;
+    }
+
+    .about-area{
+        height:400px;
+    }
+    .about-content{
+        padding:5px 0;
+    }
+    .about-content h2{
+        font-size:30px;
+        padding-bottom:12px;
+    }
+    .about-text{
+        width:100%;
+        padding-top:0;
+        
+    }
+    .about-text h3{
+        font-size:18px;
+        padding-bottom:10px;
+
+    }
+    .about-text p{
+        line-height:1.4em;
+        font-size:13px;
+    }
+    .about-img{
+        width:100%;
+        padding-top:18px;
+    }
+    .services-content{
+        padding:50px 0;
+    }
+    .services-content h2{
+        font-size:30px;
+    }
+    .services-img{
+        height:250px;
+        width:100%;
+    }
+
+    .services-text{
+        padding-top:22px;
+        width:95%;
+        margin:auto;
+    }
+    .single-service h3::before{
+        height:65px;
+   
+    }
+
+    .single-service h3{
+        font-size:18px;
+    }
+    .single-service p{
+        font-size:13px;
+    }
+    .office-content h2{
+        font-size:30px;
+        padding:5px;
+    }
+    .office-area{
+        height:440px;
+    }
+    .office-text{
+        width:100%;
+        padding-top:10px;
+    }
+    .office-text h3{
+        text-align:center;
+        font-size:16px;
+        padding-bottom:10px;
+    }
+    .office-text p{
+        font-size:13px;
+        text-align:justify;
+        line-height:1.2em;
+    }
+    .office-img{
+        width:100%;
+        padding-top:20px;
+    }
+
+    .contact-content h2{
+        font-size:30px;
+    }
+    .contact-form{
+        margin-left:42px;
+        width:70%;
+        height:300px;
+        padding:5px;
+    }
+    .contact-map{
+        width:100%;
+    }
+}
